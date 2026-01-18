@@ -1,19 +1,12 @@
-# NTIRE2025_CDFSOD
-NTIRE 2025 Challenge on **1-st Cross-Domain Few-Shot Object Detection @ CVPR 2025** 🔥🔥
+# NTIRE2026_CDFSOD
+NTIRE 2026 Challenge on **2-nd Cross-Domain Few-Shot Object Detection @ CVPR 2026** 🔥🔥
 
 Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
-[**News!**] 25-03-01: We release the [testing datasets](https://drive.google.com/drive/folders/1Pewv7HYacwD5Rrknp5EiAdw8vMbaaFAA?usp=sharing)! 
+[**News!**] 25-01-18: Training and Validation datasets will be released soon！📖 
 
-[**News!**] 25-03-27: The ranking of teams has been released. Check the results [here](https://docs.google.com/spreadsheets/d/1ft1SV9E1k5J4OgUB6omaxRdqTvCn_uLsNlon2AB0llQ/edit?usp=sharing)!
 
-[**News!**] 25-04-01: Our challenge paper is accepted by NTIRE25 workshop @ CVPR2025. 🎉
-
-[**News!**]: [Arxiv Paper](https://arxiv.org/pdf/2504.10685) of the technical report will be released！📖 
-
-[**News!**]: Codes of the proposed methods from our participants have be released！ 🎈 
-
-**Links to the proposed solutions:** 🏆
+**Links to the proposed solutions in the 1-st Challenge:** 🏆
 - Winners of open-source CD-FSOD:
     - Team MoveFree: https://github.com/KAIJINZ228/Few_Shot_GD
     - Team AI4EarthLab: https://github.com/jaychempan/ETS
@@ -54,7 +47,7 @@ We suggest using Anaconda for environment management. Here's how to set up the e
     conda activate cdfsod
 - **Step 2**: install other libs:
   ```bash
-    cd NTIRE2025_CDFSOD
+    cd NTIRE2026_CDFSOD
     pip install -r requirements.txt
     pip install -e ./
 or take it as a reference based on your original environments.
@@ -74,7 +67,7 @@ The target datasets could be easily downloaded in the following links:
 After downloading all the necessary validation datasets, make sure they are organized as follows:
 
 ```bash
-|NTIRE2025_CDFSOD/datasets/
+|NTIRE2026_CDFSOD/datasets/
 |--clipart1k/
 |   |--annotations
 |   |--test
@@ -87,7 +80,7 @@ After downloading all the necessary validation datasets, make sure they are orga
 ```
 And the weights should be organized as follows:
 ```bash
-|NTIRE2025_CDFSOD/weights/
+|NTIRE2026_CDFSOD/weights/
 |--trained/
 |   |--vitl_0089999.pth
 |--background/
@@ -119,7 +112,7 @@ To ensure fairness and meaningful benchmarking, participants must adhere to the 
 - **Baseline Models**: We will provide baseline implementations of DE-ViT and CD-ViTO, along with training scripts and benchmark results.
 - **Evaluation Server**: Participants will submit results to an online leaderboard for validation and testing.
 
-**The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2025.**
+**The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2026.**
 
 ## References
 please consider citing our baseline work:
@@ -146,6 +139,13 @@ and our technical report:
 
 and if you are looking for related works for cross-domain few-shot learning, please consider also: 
 ```
+@article{li2025domain,
+  title={Domain-RAG: Retrieval-Guided Compositional Image Generation for Cross-Domain Few-Shot Object Detection},
+  author={Li, Yu and Qiu, Xingyu and Fu, Yuqian and Chen, Jie and Qian, Tianwen and Zheng, Xu and Paudel, Danda Pani and Fu, Yanwei and Huang, Xuanjing and Van Gool, Luc and others},
+  journal={arXiv preprint arXiv:2506.05872},
+  year={2025}
+}
+
 @inproceedings{fu2023styleadv,
   title={Styleadv: Meta style adversarial training for cross-domain few-shot learning},
   author={Fu, Yuqian and Xie, Yu and Fu, Yanwei and Jiang, Yu-Gang},
@@ -166,9 +166,11 @@ and if you are looking for related works for cross-domain few-shot learning, ple
 ## Organizers
 For inquiries, please contact the challenge organizers: 
 
+Xingyu Qiu (xyqiu24@m.fudan.edu.cn)
+
 Yuqian Fu (yuqian.fu@insait.ai)
 
-Xingyu Qiu (xyqiu24@m.fudan.edu.cn)
+Jiawei Geng (jwgeng25@m.fudan.edu.cn)
 
 Bin Ren (bin.ren@unitn.it)
 
@@ -182,7 +184,7 @@ Ming-Hsuan Yang (mhyang@ucmerced.edu)
 
 Luc Van Gool (luc.vangool@insait.ai)
 
-For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2025](https://cvlai.net/ntire/2025/).
+For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2026](https://cvlai.net/ntire/2026/).
 
 ## Others
 For more details, e.g., the important dates, the submission, the final scoring method, please see our [codalab](https://codalab.lisn.upsaclay.fr/competitions/21851).
