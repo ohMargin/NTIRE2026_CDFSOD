@@ -3,7 +3,7 @@ NTIRE 2026 Challenge on **2-nd Cross-Domain Few-Shot Object Detection @ CVPR 202
 
 Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
-[**News!**] 25-01-18: Training and Validation datasets will be released soon！📖 
+[**News!**] 25-01-20: Training and Validation datasets released📖 
 
 
 **Links to the proposed solutions in the 1-st Challenge:** 🏆
@@ -59,10 +59,7 @@ The target datasets could be easily downloaded in the following links:
 - [Dataset and Weights Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
 
 ## The Test Datasets
-03-01: we just released the datasets for testing!
-
-**The testing datasets could be easily downloaded in the following links:**
-- **[Dataset Link from Google Drive](https://drive.google.com/drive/folders/1Pewv7HYacwD5Rrknp5EiAdw8vMbaaFAA?usp=sharing)**
+unreleased now.
 
 After downloading all the necessary validation datasets, make sure they are organized as follows:
 
