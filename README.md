@@ -34,7 +34,7 @@ This challenge does not impose restrictions on **source data selection** (e.g., 
 
 We will also provide several strong baseline models, while strongly encouraging participants to explore innovative solutions that improve detection accuracy on the target domain while effectively leveraging knowledge from the source domain. This challenge offers a unique opportunity for researchers and practitioners from academia and industry to push the boundaries of cross-domain few-shot object detection.
 
-As a strong starting point, we recommend ETS (https://github.com/jaychempan/ETS), the award-winning open-sourced solution from 1-st Main track, which provides a solid and competitive baseline for participants to build upon. In addition, we suggest Domain-RAG (https://github.com/LiYu0524/Domain-RAG), a plug-and-play method that can be readily integrated into existing pipelines to enhance cross-domain adaptation and few-shot detection performance. For participants interested in high-performing solutions in the Closed Setting, we highlight X-Few (https://github.com/johnmaijer/X-Few-_CD-FSOD), the award-winning team solution from 1-st Closed Source track, offering valuable insights and strong empirical performance under the closed-set evaluation protocol.
+As a strong starting point, we recommend ETS (https://github.com/jaychempan/ETS), the award-winning open-sourced solution from 1-st Main track, which provides a solid and competitive baseline for participants to build upon. In addition, we suggest Domain-RAG (https://github.com/LiYu0524/Domain-RAG,NeurIPS 25, Current SoTA), a plug-and-play method that can be readily integrated into existing pipelines to enhance cross-domain adaptation and few-shot detection performance. For participants interested in high-performing solutions in the Closed Setting, we highlight X-Few (https://github.com/johnmaijer/X-Few-_CD-FSOD), the award-winning team solution from 1-st Closed Source track, offering valuable insights and strong empirical performance under the closed-set evaluation protocol.
 
 ## The Environments
 The evaluation environments we adopted are recorded in the following section. Below are the system requirements and setup instructions for reproducing the evaluation environment.
@@ -164,11 +164,17 @@ For inquiries, please contact the challenge organizers:
 
 Xingyu Qiu (xyqiu24@m.fudan.edu.cn)
 
-Yuqian Fu (yuqian.fu@insait.ai)
+Yuqian Fu (yuqian.fu.ai@gmail.com)
 
 Jiawei Geng (jwgeng25@m.fudan.edu.cn)
 
-Bin Ren (bin.ren@unitn.it)
+Bin Ren (bin.ren.mondo@gmail.com)
+
+Jiancheng Pan (jiancheng.pan.plus@gmail.com)
+
+Zongwei Wu (zongwei.wu@uni-wuerzburg.de)
+
+Hao Tang (howard.haotang@gmail.com)
 
 Yanwei Fu (yanweifu@fudan.edu.cn)
 
@@ -176,9 +182,7 @@ Radu Timofte (radu.timofte@uni-wuerzburg.de)
 
 Nicu Sebe (niculae.sebe@unitn.it)
 
-Ming-Hsuan Yang (mhyang@ucmerced.edu)
-
-Luc Van Gool (luc.vangool@insait.ai)
+Mohamed H. Elhoseiny (mohamed.elhoseiny@kaust.edu.sa)
 
 For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2026](https://cvlai.net/ntire/2026/).
 
