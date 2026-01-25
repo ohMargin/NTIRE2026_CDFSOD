@@ -111,7 +111,7 @@ To ensure fairness and meaningful benchmarking, participants must adhere to the 
 **The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2026.**
 
 ## References
-please consider citing our baseline work:
+please consider citing our baseline work and challenege technical report:
 ```
 @inproceedings{fu2025cross,
   title={Cross-domain few-shot object detection via enhanced open-set object detector},
@@ -121,10 +121,7 @@ please consider citing our baseline work:
   year={2025},
   organization={Springer}
 }
-```
 
-and our technical report:
-```
 @inproceedings{fu2025ntire, 
   title={NTIRE 2025 challenge on cross-domain few-shot object detection: methods and results},
   author={Fu, Yuqian and Qiu, Xingyu and Ren, Bin and Fu, Yanwei and Timofte, Radu and Sebe, Nicu and Yang, Ming-Hsuan and Van Gool, Luc and others},
