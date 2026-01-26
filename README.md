@@ -123,11 +123,11 @@ please consider citing our baseline work and challenege technical report:
   organization={Springer}
 }
 
-@inproceedings{fu2025ntire, 
-  title={NTIRE 2025 challenge on cross-domain few-shot object detection: methods and results},
-  author={Fu, Yuqian and Qiu, Xingyu and Ren, Bin and Fu, Yanwei and Timofte, Radu and Sebe, Nicu and Yang, Ming-Hsuan and Van Gool, Luc and others},
+@inproceedings{qiu2026ntire, 
+  title={NTIRE 2026 challenge on cross-domain few-shot object detection: methods and results},
+  author={ Qiu, Xingyu and Fu, Yuqian and Jiawei, Geng and Ren, Bin and Jiancheng Pan and Fu, Yanwei and Timofte, Radu and others},
   booktitle={CVPRW},
-  year={2025}
+  year={2026}
 }
 ```
 
