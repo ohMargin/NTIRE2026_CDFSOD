@@ -1,7 +1,7 @@
 # NTIRE2026_CDFSOD
 NTIRE 2026 Challenge on **2-nd Cross-Domain Few-Shot Object Detection @ CVPR 2026** 🔥🔥
 
-Link: [https://codalab.lisn.upsaclay.fr/competitions/21851](https://www.codabench.org/competitions/12873/)
+Link: [https://www.codabench.org/competitions/12873/](https://www.codabench.org/competitions/12873/)
 
 [**News!**] 26-01-20: Training and Validation datasets released📖 
 
